@@ -1,0 +1,37 @@
+name: Improve regional coverage
+description: Suggest a missing country, curriculum, exam, language, or access need.
+title: "[Region]: "
+labels:
+  - regional coverage
+body:
+  - type: input
+    id: region
+    attributes:
+      label: Region, country, or education system
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: What is missing?
+      description: Explain the curriculum, examination, language, accessibility, or connectivity context the current catalog overlooks.
+    validations:
+      required: true
+  - type: textarea
+    id: candidates
+    attributes:
+      label: Candidate tools and sources
+      description: Link canonical product pages and evidence of meaningful local use.
+    validations:
+      required: true
+  - type: dropdown
+    id: local_context
+    attributes:
+      label: Your context
+      options:
+        - I study or teach in this context
+        - I have professional or research experience here
+        - I represent a suggested provider
+        - I am sharing desk research
+    validations:
+      required: true

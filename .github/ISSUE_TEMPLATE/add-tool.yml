@@ -1,0 +1,112 @@
+name: Add a tool
+description: Suggest a study or learning tool for the active catalog.
+title: "[Add]: "
+labels:
+  - new tool
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Please search the catalog and existing issues first. Listings are alphabetical and unranked.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: Example Tool
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical HTTPS URL
+      description: Use the provider's direct public page, with no referral or tracking parameters.
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary category
+      options:
+        - Flashcards & spaced repetition
+        - Note-taking & knowledge management
+        - AI tutors & homework help
+        - Math & STEM
+        - Language learning
+        - Focus, productivity & study planning
+        - Research, reading & writing
+        - Course platforms & video learning
+        - Test prep
+        - Collaboration & tutoring
+        - Lecture & document AI
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Learning value
+      description: In two or three factual sentences, what does it help learners do and why does it merit inclusion?
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: Regional relevance
+      description: Optional. Name any curriculum, exam, language, country, or access need that gives it regional relevance.
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access model
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Pay as you go
+        - Institutional
+        - Unsure
+    validations:
+      required: true
+  - type: dropdown
+    id: ai
+    attributes:
+      label: AI role
+      options:
+        - No substantial AI
+        - AI features augment the product
+        - AI is central to the product
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link first-party documentation for capabilities and any reputable source relevant to adoption or status.
+    validations:
+      required: true
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: Do you work for, advise, invest in, or otherwise benefit from this tool?
+      options:
+        - No affiliation
+        - Yes — disclosed below
+    validations:
+      required: true
+  - type: textarea
+    id: affiliation_details
+    attributes:
+      label: Affiliation details
+      description: Required when you selected "Yes" above.
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched for an existing listing or open suggestion.
+          required: true
+        - label: The URL is not an affiliate, referral, or shortened link.
+          required: true
+        - label: I have read the editorial policy.
+          required: true

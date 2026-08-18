@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#163b3d">
+    <meta
+      name="description"
+      content="Explore a community-curated catalogue of study tools by learning goal, region, AI role, and access model."
+    >
+    <link rel="canonical" href="https://studyarena-com.github.io/awesome-study-tools/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Awesome Study Tools">
+    <meta property="og:title" content="Awesome Study Tools — Find the right tool for how you learn">
+    <meta property="og:description" content="Search a global, community-curated catalogue of study and learning tools without the hype.">
+    <meta property="og:url" content="https://studyarena-com.github.io/awesome-study-tools/">
+    <meta name="twitter:card" content="summary">
+    <title>Awesome Study Tools — Find the right tool for how you learn</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalogue">Skip to the catalogue</a>
+
+    <header class="site-header">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="./" aria-label="Awesome Study Tools home">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </span>
+          <span>Awesome Study Tools</span>
+        </a>
+        <div class="topbar-links">
+          <a class="data-link" href="https://github.com/studyarena-com/awesome-study-tools">
+            Contribute
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a class="data-link" href="./data/tools.json">
+            View open data
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A community-curated learning catalogue</p>
+          <h1>Find the right tool for how you learn.</h1>
+          <p class="hero-intro">
+            Explore flashcards, research helpers, AI tutors, planning tools,
+            regional resources, and more—without the hype.
+          </p>
+        </div>
+
+        <aside class="catalogue-note" aria-label="About this catalogue">
+          <p class="note-label">The catalogue at a glance</p>
+          <p class="stat-line">
+            <strong id="tool-total">—</strong>
+            <span>reviewed tools</span>
+          </p>
+          <p id="catalogue-coverage" class="coverage-line">
+            Loading catalogue coverage…
+          </p>
+        </aside>
+      </div>
+    </header>
+
+    <main id="catalogue" class="page-shell" tabindex="-1">
+      <section class="filter-panel" aria-labelledby="filter-title">
+        <div class="section-heading filter-heading">
+          <div>
+            <p class="section-kicker">Explore the directory</p>
+            <h2 id="filter-title">Filter by what matters to you</h2>
+          </div>
+          <button id="clear-filters" class="text-button" type="button" hidden>
+            Clear all filters
+          </button>
+        </div>
+
+        <form id="filter-form" class="filter-form" role="search" novalidate>
+          <div class="field search-field">
+            <label for="search">Search tools</label>
+            <div class="search-control">
+              <span class="search-icon" aria-hidden="true"></span>
+              <input
+                id="search"
+                name="q"
+                type="search"
+                placeholder="Try “flashcards” or “research”…"
+                autocomplete="off"
+                spellcheck="false"
+              >
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="">All categories</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="region">Region</label>
+            <select id="region" name="region">
+              <option value="">All regions</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="ai-role">AI role</label>
+            <select id="ai-role" name="ai">
+              <option value="">Any AI role</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="access">Access</label>
+            <select id="access" name="access">
+              <option value="">Any access model</option>
+            </select>
+          </div>
+        </form>
+      </section>
+
+      <section class="results-section" aria-labelledby="results-title">
+        <div class="results-heading">
+          <div>
+            <p class="section-kicker">Browse tools</p>
+            <h2 id="results-title">Catalogue</h2>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite">
+            Loading tools…
+          </p>
+        </div>
+
+        <div id="results-status" class="results-status" aria-busy="true">
+          <div id="loading-state" class="state-card loading-state" role="status">
+            <span class="loading-mark" aria-hidden="true"></span>
+            <div>
+              <h3>Opening the catalogue</h3>
+              <p>Gathering the latest reviewed entries.</p>
+            </div>
+          </div>
+
+          <div id="error-state" class="state-card error-state" role="alert" hidden>
+            <span class="state-symbol" aria-hidden="true">!</span>
+            <div>
+              <h3>We couldn’t load the catalogue</h3>
+              <p>
+                The data may be temporarily unavailable. Check that
+                <code>data/tools.json</code> is published, then try again.
+              </p>
+              <button id="retry-load" class="button" type="button">Try again</button>
+            </div>
+          </div>
+
+          <div id="empty-state" class="state-card empty-state" hidden>
+            <span class="state-symbol" aria-hidden="true">0</span>
+            <div>
+              <h3>No tools match those filters</h3>
+              <p>Try a broader search or clear a filter to see more of the catalogue.</p>
+              <button id="empty-clear" class="button" type="button">Clear filters</button>
+            </div>
+          </div>
+
+          <ul id="tool-list" class="tool-grid" aria-label="Study tools"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="footer-title">Awesome Study Tools</p>
+        <p>A neutral, community-maintained starting point for finding learning tools.</p>
+      </div>
+      <p class="footer-note">
+        Inclusion is not endorsement. Features and pricing can change; verify details
+        with each provider. <a href="https://github.com/studyarena-com/awesome-study-tools">Contribute on GitHub</a>.
+      </p>
+    </footer>
+  </body>
+</html>

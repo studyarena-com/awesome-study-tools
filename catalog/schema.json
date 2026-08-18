@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/studyarena-com/awesome-study-tools/blob/main/catalog/schema.json",
+  "title": "Awesome Study Tools catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "last_reviewed",
+    "categories",
+    "regions",
+    "tools"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/taxonomyItem"
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/taxonomyItem"
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tool"
+      }
+    }
+  },
+  "$defs": {
+    "taxonomyItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "emoji"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "emoji": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "tool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "url",
+        "description",
+        "categories",
+        "regions",
+        "countries",
+        "ai_role",
+        "access",
+        "platforms",
+        "status",
+        "maintainer_affiliated",
+        "last_reviewed"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 80
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 180
+        },
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "regions": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "countries": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "ai_role": {
+          "enum": [
+            "native",
+            "features",
+            "none"
+          ]
+        },
+        "access": {
+          "enum": [
+            "free",
+            "freemium",
+            "paid",
+            "pay-as-you-go",
+            "institutional"
+          ]
+        },
+        "platforms": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "status": {
+          "enum": [
+            "active",
+            "maintenance",
+            "renamed"
+          ]
+        },
+        "maintainer_affiliated": {
+          "type": "boolean"
+        },
+        "last_reviewed": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: catalog-link-check
+  cancel-in-progress: false
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Check catalog links
+        id: links
+        continue-on-error: true
+        run: python3 scripts/check_links.py --markdown-output link-report.md
+      - name: Open or update maintenance issue
+        if: steps.links.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[Maintenance] Catalog links need review"
+        run: |
+          issue_number="$(gh issue list --state open --search "${ISSUE_TITLE} in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "${issue_number}" ]; then
+            gh issue comment "${issue_number}" --body-file link-report.md
+          else
+            gh issue create --title "${ISSUE_TITLE}" --label "broken link" --body-file link-report.md
+          fi
+      - name: Close resolved maintenance issue
+        if: steps.links.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_TITLE: "[Maintenance] Catalog links need review"
+        run: |
+          issue_number="$(gh issue list --state open --search "${ISSUE_TITLE} in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "${issue_number}" ]; then
+            gh issue close "${issue_number}" --comment "The scheduled link check is passing again. Closing automatically."
+          fi
+      - name: Fail workflow when review is needed
+        if: steps.links.outcome == 'failure'
+        run: exit 1

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this catalog in research or another resource, please cite it using this metadata."
+title: "Awesome Study Tools"
+type: dataset
+authors:
+  - name: "StudyArena community"
+repository-code: "https://github.com/studyarena-com/awesome-study-tools"
+url: "https://github.com/studyarena-com/awesome-study-tools"
+license: CC0-1.0
+version: 1.0.0
+date-released: 2026-08-18
+keywords:
+  - education
+  - study tools
+  - educational technology
+  - learning resources
+  - AI tutors

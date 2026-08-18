@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask the community
+    url: https://github.com/studyarena-com/awesome-study-tools/discussions
+    about: Use Discussions for open-ended questions, comparisons, and ideas.
+  - name: Report a security concern privately
+    url: https://github.com/studyarena-com/awesome-study-tools/security/advisories/new
+    about: Use this for a malicious or compromised destination and avoid sharing sensitive evidence publicly.

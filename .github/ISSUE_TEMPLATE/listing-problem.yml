@@ -1,0 +1,51 @@
+name: Report a listing problem
+description: Report a broken, renamed, misleading, unsafe, or outdated listing.
+title: "[Update]: "
+labels:
+  - catalog update
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: current_url
+    attributes:
+      label: Current catalog URL
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options:
+        - Broken or unavailable link
+        - Redirect or rebrand
+        - Inaccurate description
+        - Incorrect AI classification
+        - Incorrect access model
+        - Discontinued product
+        - Unsafe or deceptive destination
+        - Other catalog correction
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What changed?
+      description: Describe what you observed and the correction you recommend. Do not include personal student data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting links
+      description: Include the canonical replacement URL or a source that confirms the change.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: For a malicious or compromised destination, avoid revisiting it and use the private security-reporting link in SECURITY.md when possible.

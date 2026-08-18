@@ -1,0 +1,3871 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-08-18",
+  "categories": [
+    {
+      "id": "flashcards-spaced-repetition",
+      "name": "Flashcards & Spaced Repetition",
+      "emoji": "🃏"
+    },
+    {
+      "id": "note-taking-knowledge-management",
+      "name": "Note-Taking & Knowledge Management",
+      "emoji": "📝"
+    },
+    {
+      "id": "ai-tutors-homework-help",
+      "name": "AI Tutors & Homework Help",
+      "emoji": "🤖"
+    },
+    {
+      "id": "math-stem",
+      "name": "Math & STEM",
+      "emoji": "🔬"
+    },
+    {
+      "id": "language-learning",
+      "name": "Language Learning",
+      "emoji": "🗣️"
+    },
+    {
+      "id": "focus-productivity-study-planning",
+      "name": "Focus, Productivity & Study Planning",
+      "emoji": "⏱️"
+    },
+    {
+      "id": "research-reading-writing",
+      "name": "Research, Reading & Writing",
+      "emoji": "📖"
+    },
+    {
+      "id": "course-platforms-video-learning",
+      "name": "Course Platforms & Video Learning",
+      "emoji": "🎓"
+    },
+    {
+      "id": "test-prep",
+      "name": "Test Prep (Global)",
+      "emoji": "📋"
+    },
+    {
+      "id": "collaboration-tutoring",
+      "name": "Collaboration & Tutoring Marketplaces",
+      "emoji": "👥"
+    },
+    {
+      "id": "lecture-document-ai",
+      "name": "Lecture & Document AI",
+      "emoji": "🎙️"
+    }
+  ],
+  "regions": [
+    {
+      "id": "united-states-canada",
+      "name": "United States & Canada",
+      "emoji": "🇺🇸🇨🇦"
+    },
+    {
+      "id": "united-kingdom-ireland",
+      "name": "United Kingdom & Ireland",
+      "emoji": "🇬🇧🇮🇪"
+    },
+    {
+      "id": "continental-europe",
+      "name": "Continental Europe",
+      "emoji": "🇪🇺"
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "emoji": "🇮🇳"
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "emoji": "🇨🇳"
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "emoji": "🇯🇵"
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "emoji": "🇰🇷"
+    },
+    {
+      "id": "southeast-asia",
+      "name": "Southeast Asia",
+      "emoji": "🌏"
+    },
+    {
+      "id": "middle-east-north-africa",
+      "name": "Middle East & North Africa",
+      "emoji": "🕌"
+    },
+    {
+      "id": "latin-america",
+      "name": "Latin America",
+      "emoji": "🌎"
+    },
+    {
+      "id": "sub-saharan-africa",
+      "name": "Africa (Sub-Saharan)",
+      "emoji": "🌍"
+    },
+    {
+      "id": "australia-new-zealand",
+      "name": "Australia & New Zealand",
+      "emoji": "🇦🇺🇳🇿"
+    }
+  ],
+  "tools": [
+    {
+      "id": "3blue1brown",
+      "name": "3Blue1Brown",
+      "url": "https://www.3blue1brown.com/",
+      "description": "Visual explanations of mathematics through animated videos.",
+      "categories": [
+        "math-stem",
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "YouTube"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "abwaab",
+      "name": "Abwaab",
+      "url": "https://www.abwaab.com/",
+      "description": "Curriculum-aligned video lessons and practice for learners in Jordan, Egypt, and Pakistan.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "middle-east-north-africa"
+      ],
+      "countries": [
+        "Jordan"
+      ],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "adobe-acrobat-ai-assistant",
+      "name": "Adobe Acrobat AI Assistant",
+      "url": "https://www.adobe.com/acrobat/generative-ai-pdf.html",
+      "description": "Ask questions and get summaries from PDFs inside Acrobat.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Multiple platforms"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "alef-education",
+      "name": "Alef Education",
+      "url": "https://www.alefeducation.com/",
+      "description": "Arabic-first adaptive K–12 learning platform for schools and individual learners.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "middle-east-north-africa"
+      ],
+      "countries": [
+        "UAE"
+      ],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "allen",
+      "name": "Allen",
+      "url": "https://allen.in/",
+      "description": "Online and classroom-based preparation for Indian entrance and government examinations.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "almentor",
+      "name": "Almentor",
+      "url": "https://www.almentor.net/home",
+      "description": "Arabic-language courses in professional and personal development.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "middle-east-north-africa"
+      ],
+      "countries": [
+        "Egypt",
+        "UAE"
+      ],
+      "ai_role": "none",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "alura",
+      "name": "Alura",
+      "url": "https://www.alura.com.br/",
+      "description": "Portuguese-language technology and professional-skills courses.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Brazil"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "amboss",
+      "name": "AMBOSS",
+      "url": "https://www.amboss.com/int",
+      "description": "Medical Qbank + library for USMLE and med school.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "anki",
+      "name": "Anki",
+      "url": "https://apps.ankiweb.net/",
+      "description": "An open-source spaced-repetition system with a large community deck library.",
+      "categories": [
+        "flashcards-spaced-repetition",
+        "language-learning"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "anton",
+      "name": "ANTON",
+      "url": "https://anton.app/",
+      "description": "Free gamified learning for primary and lower-secondary, aligned to German state curricula.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "aprende-institute",
+      "name": "Aprende Institute",
+      "url": "https://aprende.com/",
+      "description": "Vocational training for Spanish-speaking learners and workforce.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "LatAm"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "atama",
+      "name": "atama+",
+      "url": "https://www.atama.plus/",
+      "description": "AI-adaptive university entrance prep that diagnoses root-cause knowledge gaps (cram schools).",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "atar-notes",
+      "name": "ATAR Notes",
+      "url": "https://atarnotes.com/",
+      "description": "Peer-driven notes and practice exams written by recent top scorers (VCE/HSC/QCE/WACE).",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "atomi",
+      "name": "Atomi",
+      "url": "https://www.getatomi.com/",
+      "description": "Curriculum-aligned lessons, practice, and AI-supported feedback for Australian secondary students.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "babbel",
+      "name": "Babbel",
+      "url": "https://www.babbel.com/",
+      "description": "Practical conversation-focused lessons, strong for European languages.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "baicizhan",
+      "name": "Baicizhan",
+      "url": "https://www.baicizhan.com/",
+      "description": "Gamified English vocabulary practice for Chinese-speaking learners.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "bbc-bitesize",
+      "name": "BBC Bitesize",
+      "url": "https://www.bbc.co.uk/bitesize",
+      "description": "Free curriculum-aligned lessons and revision resources from the BBC.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "bear",
+      "name": "Bear",
+      "url": "https://bear.app/",
+      "description": "Elegant markdown writing app with tags and cross-note links.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "macOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "blooket",
+      "name": "Blooket",
+      "url": "https://www.blooket.com/",
+      "description": "Game-based classroom quizzes with teacher authoring and AI-assisted question generation.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "brainscape",
+      "name": "Brainscape",
+      "url": "https://www.brainscape.com/",
+      "description": "Confidence-based repetition with curated expert decks.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "url": "https://brilliant.org/",
+      "description": "Interactive problem-solving courses in math, physics, CS, and data science.",
+      "categories": [
+        "math-stem",
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "busuu",
+      "name": "Busuu",
+      "url": "https://www.busuu.com/",
+      "description": "Structured courses with native-speaker feedback and AI corrections.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "chalkboard-education",
+      "name": "Chalkboard Education",
+      "url": "https://www.chalkboard.education/",
+      "description": "Offline-first mobile learning for universities and vocational training.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "Ghana"
+      ],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "description": "General-purpose LLM with study mode, strong tutoring and explanation across all subjects.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "Desktop"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "ck-12",
+      "name": "CK-12",
+      "url": "https://www.ck12.org/student/",
+      "description": "Free digital textbooks, adaptive practice, and interactive STEM resources.",
+      "categories": [
+        "math-stem",
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "description": "AI assistant known for nuanced explanations, long-context analysis, and learning mode.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "cluey-learning",
+      "name": "Cluey Learning",
+      "url": "https://clueylearning.com.au/",
+      "description": "Live online tutoring for Australian primary and secondary students.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "cognito",
+      "name": "Cognito",
+      "url": "https://cognito.org/",
+      "description": "GCSE science videos + AI-marked written exam answers (UK).",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "cold-turkey",
+      "name": "Cold Turkey",
+      "url": "https://getcoldturkey.com/",
+      "description": "Hard-block distraction blocker with scheduled blocking.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "colearn",
+      "name": "CoLearn",
+      "url": "https://colearn.id/",
+      "description": "Photo-based maths help and live tutoring in Bahasa Indonesia.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "southeast-asia"
+      ],
+      "countries": [
+        "Indonesia"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "college-board-bluebook",
+      "name": "College Board Bluebook",
+      "url": "https://bluebook.collegeboard.org/",
+      "description": "Official app for digital SAT practice tests and test-day delivery.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Chromebook"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "connected-papers",
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com/",
+      "description": "Visual maps for exploring papers related to a seed publication.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "url": "https://consensus.app/",
+      "description": "AI academic search with a \"Consensus Meter\" showing evidence direction.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "course-hero",
+      "name": "Course Hero",
+      "url": "https://www.coursehero.com/",
+      "description": "Crowdsourced college document library and Q&A with an AI tutoring layer.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "url": "https://www.coursera.org/",
+      "description": "University-partnered courses, specializations, and degrees.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "cram",
+      "name": "Cram",
+      "url": "https://www.cram.com/",
+      "description": "Large public flashcard library with simple practice modes.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "crashcourse",
+      "name": "CrashCourse",
+      "url": "https://www.youtube.com/@crashcourse",
+      "description": "Landmark free educational YouTube; visual math and broad survey courses.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "YouTube"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "crehana",
+      "name": "Crehana",
+      "url": "https://www.crehana.com/",
+      "description": "Creative and professional skills courses across LatAm.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Peru"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "d2l-brightspace",
+      "name": "D2L Brightspace",
+      "url": "https://www.d2l.com/",
+      "description": "Learning management system used by schools, universities, and training providers.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "descomplica",
+      "name": "Descomplica",
+      "url": "https://descomplica.com.br/",
+      "description": "ENEM/vestibular prep turned accredited online university, with AI summaries and adaptive maps.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Brazil"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "desmos",
+      "name": "Desmos",
+      "url": "https://www.desmos.com/",
+      "description": "Free graphing, geometry, and classroom mathematics tools.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "doubtnut",
+      "name": "Doubtnut",
+      "url": "https://allen.in/dn",
+      "description": "Photo-based maths and science problem explanations for Indian learners.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "description": "Gamified language lessons with practice across reading, writing, listening, and speaking.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "ebsi",
+      "name": "EBSi",
+      "url": "https://www.ebsi.co.kr/",
+      "description": "Government-supported online preparation for South Korea's CSAT examination.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "south-korea"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "edrolo",
+      "name": "Edrolo",
+      "url": "https://edrolo.com.au/",
+      "description": "Curriculum-aligned video lessons and practice for Australian secondary students.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "education-perfect",
+      "name": "Education Perfect",
+      "url": "https://www.educationperfect.com/",
+      "description": "K–12 lessons, assessment, and practice across several subjects.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "edx",
+      "name": "edX",
+      "url": "https://www.edx.org/",
+      "description": "University-level courses and MicroMasters from MIT, Harvard, and others.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "url": "https://elicit.com/",
+      "description": "AI-assisted literature search, evidence extraction, and systematic-review workflows.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "elsa-speak",
+      "name": "ELSA Speak",
+      "url": "https://elsaspeak.com/en",
+      "description": "AI-supported English pronunciation practice using speech recognition.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "southeast-asia"
+      ],
+      "countries": [
+        "Vietnam"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "fireflies-ai",
+      "name": "Fireflies.ai",
+      "url": "https://fireflies.ai/",
+      "description": "AI transcription, search, and summaries for recorded sessions.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "fiveable",
+      "name": "Fiveable",
+      "url": "https://fiveable.me/",
+      "description": "Study guides, practice questions, and community support for AP courses.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "focusmate",
+      "name": "Focusmate",
+      "url": "https://www.focusmate.com/",
+      "description": "Virtual co-working: get paired with an accountability partner for timed sessions.",
+      "categories": [
+        "focus-productivity-study-planning",
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "foondamate",
+      "name": "FoondaMate",
+      "url": "https://foondamate.com/",
+      "description": "Low-data study assistance delivered through WhatsApp and Messenger.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "South Africa"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "forest",
+      "name": "Forest",
+      "url": "https://www.forestapp.cc/",
+      "description": "Gamified Pomodoro; grow a virtual tree while you focus (funds real trees).",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Browser extension"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/",
+      "description": "Free project-based coding curriculum from HTML to machine learning.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "YouTube"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "url": "https://freedom.to/",
+      "description": "Cross-device website and app blocker with scheduled sessions.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Multiple platforms"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com/",
+      "description": "Google's multimodal AI assistant, integrated with Workspace and Search.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "gemini-notebook",
+      "name": "Gemini Notebook",
+      "url": "https://notebook.google.com/",
+      "description": "Source-grounded notes, summaries, questions, and audio over uploaded learning materials.",
+      "categories": [
+        "research-reading-writing",
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "geogebra",
+      "name": "GeoGebra",
+      "url": "https://www.geogebra.org/",
+      "description": "Dynamic math software for geometry, algebra, calculus, stats, and 3D.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "gimkit",
+      "name": "Gimkit",
+      "url": "https://www.gimkit.com/",
+      "description": "Live game-based quizzes with interactive classroom modes.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "goodnotes-6",
+      "name": "GoodNotes 6",
+      "url": "https://www.goodnotes.com/",
+      "description": "Premium handwriting notes with OCR, PDF annotation, and AI study tools.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "iOS",
+        "macOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "description": "Search engine for scholarly literature, citations, and author profiles.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "gostudent",
+      "name": "GoStudent",
+      "url": "https://www.gostudent.org/",
+      "description": "European tutoring platform with human tutors + Amelia AI tutor add-on.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Austria"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com/",
+      "description": "AI writing assistant for grammar, style, tone, and clarity.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Multiple platforms"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "gregmat",
+      "name": "GregMat",
+      "url": "https://www.gregmat.com/",
+      "description": "Low-cost preparation for exams including the GRE and GMAT.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "YouTube"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "hellotalk",
+      "name": "HelloTalk",
+      "url": "https://www.hellotalk.com/",
+      "description": "Language exchange with native speakers, with AI grammar correction.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "italki",
+      "name": "italki",
+      "url": "https://www.italki.com/",
+      "description": "1-on-1 lessons with professional teachers and community tutors in any language.",
+      "categories": [
+        "language-learning",
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "kahoot",
+      "name": "Kahoot!",
+      "url": "https://kahoot.com/",
+      "description": "Gamified quizzing with AI Generator, Quiz Starter, and step-by-step solver.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "kaplan",
+      "name": "Kaplan",
+      "url": "https://www.kaptest.com/",
+      "description": "Established prep for MCAT, bar, GRE, GMAT, SAT, ACT.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "kartable",
+      "name": "Kartable",
+      "url": "https://www.kartable.fr/",
+      "description": "French curriculum revision for collège and lycée, Bac prep.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "khan-academy",
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "description": "Free comprehensive math and science lessons K–12 through college.",
+      "categories": [
+        "math-stem",
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "khanmigo",
+      "name": "Khanmigo",
+      "url": "https://www.khanmigo.ai/",
+      "description": "Khan Academy's Socratic AI tutor that guides rather than answers; multilingual, image input.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "knowt",
+      "name": "Knowt",
+      "url": "https://knowt.com/",
+      "description": "Converts notes and uploads into flashcards, quizzes, and study guides automatically.",
+      "categories": [
+        "flashcards-spaced-repetition",
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "kognity",
+      "name": "Kognity",
+      "url": "https://kognity.com/",
+      "description": "Interactive digital textbooks and practice for international secondary curricula.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Sweden"
+      ],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "koobits",
+      "name": "KooBits",
+      "url": "https://www.koobits.com/",
+      "description": "Adaptive primary-school mathematics practice aligned with Singapore curricula.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [
+        "southeast-asia"
+      ],
+      "countries": [
+        "Singapore"
+      ],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "learncoach",
+      "name": "LearnCoach",
+      "url": "https://learncoach.com/",
+      "description": "NCEA/VCE/HSC senior science exam prep with AI-driven feedback.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "libretexts",
+      "name": "LibreTexts",
+      "url": "https://libretexts.org/",
+      "description": "Open textbooks and course materials across science, humanities, and social science.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "lingq",
+      "name": "LingQ",
+      "url": "https://www.lingq.com/en/",
+      "description": "Language practice through reading and listening to authentic content.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "linkedin-learning",
+      "name": "LinkedIn Learning",
+      "url": "https://www.linkedin.com/learning/",
+      "description": "Professional skills and software courses.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "url": "https://logseq.com/",
+      "description": "Open-source outliner for networked thought on local files.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "m-shule",
+      "name": "M-Shule",
+      "url": "https://m-shule.com/",
+      "description": "Adaptive SMS/WhatsApp tutoring for Kenyan primary (CBC curriculum) in low-data environments.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "Kenya"
+      ],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "magoosh",
+      "name": "Magoosh",
+      "url": "https://magoosh.com/",
+      "description": "Affordable video-based prep for GRE, GMAT, SAT, ACT, LSAT, IELTS/TOEFL.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mathspace",
+      "name": "Mathspace",
+      "url": "https://mathspace.co/au",
+      "description": "Adaptive maths with the MiloAI tutor that gives hints, not answers.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mathway",
+      "name": "Mathway",
+      "url": "https://www.mathway.com/",
+      "description": "Instant solver for math problems at all levels.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "matrix-education",
+      "name": "Matrix Education",
+      "url": "https://www.matrix.edu.au/",
+      "description": "Classroom and online HSC preparation for students in Australia.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "australia-new-zealand"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "megastudy",
+      "name": "Megastudy",
+      "url": "https://www.megastudy.net/",
+      "description": "Online lectures and preparation for South Korea's CSAT examination.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "south-korea"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mendeley",
+      "name": "Mendeley",
+      "url": "https://www.mendeley.com/",
+      "description": "Elsevier's reference manager (use Reference Manager, not the legacy Desktop).",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "Mobile"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "microsoft-onenote",
+      "name": "Microsoft OneNote",
+      "url": "https://onenote.cloud.microsoft/",
+      "description": "Free, feature-rich digital notebook with Copilot in Microsoft 365.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mikan",
+      "name": "mikan",
+      "url": "https://mikan.link/",
+      "description": "English vocabulary practice for Japanese learners preparing for school and proficiency exams.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mit-opencourseware",
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/",
+      "description": "Free course materials from MIT classes, including notes, assignments, and lectures.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "YouTube"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mochi",
+      "name": "Mochi",
+      "url": "https://mochi.cards/",
+      "description": "Minimal, elegant markdown-based spaced repetition.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "monoxer",
+      "name": "Monoxer",
+      "url": "https://corp.monoxer.com/",
+      "description": "Adaptive memory practice that schedules review from each learner's recall history.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mymaths",
+      "name": "MyMaths",
+      "url": "https://www.mymaths.co.uk/",
+      "description": "Oxford University Press maths homework platform, KS2–A-Level.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "mystudylife",
+      "name": "MyStudyLife",
+      "url": "https://mystudylife.com/",
+      "description": "Student planner for classes, assignments, exams, and timetables.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "nomad-education",
+      "name": "Nomad Education",
+      "url": "https://www.nomadeducation.fr/",
+      "description": "Mobile-first, offline-capable prep from collège through grandes écoles entrance exams.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "noon-academy",
+      "name": "Noon Academy",
+      "url": "https://www.noonacademy.com/",
+      "description": "Social learning, live classes, and exam preparation for Arabic-speaking learners.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "middle-east-north-africa"
+      ],
+      "countries": [
+        "Saudi Arabia"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "notability",
+      "name": "Notability",
+      "url": "https://notability.com/",
+      "description": "Handwriting + audio recording + typed notes, with AI summaries.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "macOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "url": "https://www.notion.com/",
+      "description": "All-in-one workspace for notes, databases, and wikis with Notion AI.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "oboe",
+      "name": "Oboe",
+      "url": "https://oboe.com/",
+      "description": "AI-assisted course generation across text, audio, quizzes, and interactive formats.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "url": "https://obsidian.md/",
+      "description": "Local-first markdown notes with backlinks, graph view, and huge plugin ecosystem (AI via plugins).",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Desktop",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "oer-commons",
+      "name": "OER Commons",
+      "url": "https://oercommons.org/",
+      "description": "Searchable library of openly licensed teaching and learning materials.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "openlearn",
+      "name": "OpenLearn",
+      "url": "https://www.open.edu/openlearn/",
+      "description": "Free courses and learning resources from The Open University.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [
+        "United Kingdom"
+      ],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "openstax",
+      "name": "OpenStax",
+      "url": "https://openstax.org/",
+      "description": "Free, openly licensed textbooks and aligned learning resources.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "url": "https://otter.ai/",
+      "description": "Real-time lecture/meeting transcription with AI summaries.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "overleaf",
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com/",
+      "description": "Collaborative browser-based LaTeX editor for academic and technical writing.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "passei-direto",
+      "name": "Passei Direto",
+      "url": "https://www.passeidireto.com/",
+      "description": "Portuguese-language university study documents and AI-assisted study features.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Brazil"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "description": "AI answer engine with cited sources and Deep Research mode.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "macOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "phet-interactive-simulations",
+      "name": "PhET Interactive Simulations",
+      "url": "https://phet.colorado.edu/",
+      "description": "Free interactive simulations for physics, chemistry, mathematics, and earth science.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "photomath",
+      "name": "Photomath",
+      "url": "https://photomath.com/",
+      "description": "Camera-based step-by-step math solver.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "physics-and-maths-tutor",
+      "name": "Physics & Maths Tutor",
+      "url": "https://www.physicsandmathstutor.com/",
+      "description": "Enormous free repository of past papers, notes, and worked solutions; no account needed.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "physics-wallah",
+      "name": "Physics Wallah",
+      "url": "https://www.pw.live/",
+      "description": "Online and classroom preparation for Indian entrance and government examinations.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "pimsleur",
+      "name": "Pimsleur",
+      "url": "https://www.pimsleur.com/",
+      "description": "Audio-first spaced-repetition method, great for commutes.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "platzi",
+      "name": "Platzi",
+      "url": "https://platzi.com/",
+      "description": "Spanish-language technology and professional-skills courses with AI-assisted learning features.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "preply",
+      "name": "Preply",
+      "url": "https://preply.com/",
+      "description": "Marketplace for live language and subject tutoring.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "prepscholar",
+      "name": "PrepScholar",
+      "url": "https://www.prepscholar.com/",
+      "description": "Adaptive SAT/ACT program targeting your weak areas.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "princeton-review",
+      "name": "Princeton Review",
+      "url": "https://www.princetonreview.com/",
+      "description": "Test prep, tutoring, and admissions coaching.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "purdue-owl",
+      "name": "Purdue OWL",
+      "url": "https://owl.purdue.edu/",
+      "description": "Free writing, citation, grammar, and research guidance from Purdue University.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "qanda",
+      "name": "QANDA (Mathpresso)",
+      "url": "https://qanda.ai/en",
+      "description": "Photo-based mathematics explanations and tutoring support.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "south-korea"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "qubena",
+      "name": "Qubena",
+      "url": "https://qubena.com/",
+      "description": "COMPASS's AI-adaptive tablet math/Japanese for elementary and junior high schools.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "question-ai",
+      "name": "Question.AI",
+      "url": "https://www.questionai.com/",
+      "description": "Snap-a-question AI solver for math, science, and written subjects.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "quizlet",
+      "name": "Quizlet",
+      "url": "https://quizlet.com/",
+      "description": "Widely used flashcard platform with Learn/Match/Test modes and Q-Chat AI tutor.",
+      "categories": [
+        "flashcards-spaced-repetition",
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "reclaim-ai",
+      "name": "Reclaim.ai",
+      "url": "https://reclaim.ai/",
+      "description": "AI scheduling that auto-blocks focus/study time around your calendar.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "remnote",
+      "name": "RemNote",
+      "url": "https://www.remnote.com/",
+      "description": "Note-taking + flashcards in one, with built-in spaced repetition and AI card generation.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "Desktop"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "researchrabbit",
+      "name": "ResearchRabbit",
+      "url": "https://www.researchrabbit.ai/",
+      "description": "Visual literature discovery through paper, author, and citation networks.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "roam-research",
+      "name": "Roam Research",
+      "url": "https://roamresearch.com/",
+      "description": "Bidirectional-linking notes for networked thinking.",
+      "categories": [
+        "note-taking-knowledge-management"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "ruangguru",
+      "name": "Ruangguru",
+      "url": "https://www.ruangguru.com/",
+      "description": "Indonesian K–12 lessons, tutoring, and exam preparation.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "southeast-asia"
+      ],
+      "countries": [
+        "Indonesia"
+      ],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "santa",
+      "name": "Santa (Socra AI)",
+      "url": "https://corp.socra.ai/en",
+      "description": "Adaptive preparation and score practice for English proficiency exams.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "south-korea"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "save-my-exams",
+      "name": "Save My Exams",
+      "url": "https://www.savemyexams.com/",
+      "description": "Examiner-written notes, topic questions, and past papers by exam board (AQA/Edexcel/OCR/CIE).",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "schoolmouv",
+      "name": "SchoolMouv",
+      "url": "https://www.schoolmouv.fr/",
+      "description": "Collège-through-lycée courses, videos, and quizzes; now a sofatutor brand.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "France"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "url": "https://scispace.com/",
+      "description": "AI for reading, explaining, and summarizing research papers.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "description": "Free scholarly search with citation context and AI-assisted paper discovery.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "seneca-learning",
+      "name": "Seneca Learning",
+      "url": "https://senecalearning.com/en-gb/",
+      "description": "Gamified curriculum revision for UK school qualifications.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "shanbay",
+      "name": "Shanbay",
+      "url": "https://web.shanbay.com/web/main",
+      "description": "Sentence-level English reading and listening practice.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "simpleclub",
+      "name": "simpleclub",
+      "url": "https://simpleclub.com/",
+      "description": "Video lessons and exercises aligned with German state curricula.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "siyavula",
+      "name": "Siyavula",
+      "url": "https://www.siyavula.com/",
+      "description": "Open textbooks and adaptive mathematics and science practice.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "South Africa"
+      ],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "slang",
+      "name": "Slang",
+      "url": "https://slangapp.com/",
+      "description": "AI-powered professional/workplace English for LatAm professionals.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "latin-america"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "snapask",
+      "name": "Snapask",
+      "url": "https://snapask.com/en-hk/",
+      "description": "On-demand homework questions answered by tutors in several Asian markets.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [
+        "southeast-asia"
+      ],
+      "countries": [
+        "HK",
+        "SEA"
+      ],
+      "ai_role": "features",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "snapplify",
+      "name": "Snapplify",
+      "url": "https://www.snapplify.com/",
+      "description": "Digital textbook and e-reading distribution for African schools.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "South Africa"
+      ],
+      "ai_role": "none",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "sofatutor",
+      "name": "sofatutor",
+      "url": "https://www.sofatutor.com/",
+      "description": "Curriculum-aligned videos and exercises for school learners in German-speaking markets.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "speechify",
+      "name": "Speechify",
+      "url": "https://speechify.com/",
+      "description": "Text-to-speech for any document, with AI summaries, quizzes, and podcasts.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android",
+        "Chrome"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "squirrel-ai",
+      "name": "Squirrel AI",
+      "url": "https://squirrelai.com/",
+      "description": "Adaptive learning and practice delivered online and through learning centres.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "squla",
+      "name": "Squla",
+      "url": "https://www.squla.nl/",
+      "description": "Gamified Dutch primary school practice (Groep 1–8).",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Netherlands"
+      ],
+      "ai_role": "none",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studocu",
+      "name": "Studocu",
+      "url": "https://www.studocu.com/",
+      "description": "Peer-shared study documents with course-specific search and AI-assisted features.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Netherlands"
+      ],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "study-together",
+      "name": "Study Together",
+      "url": "https://www.studytogether.com/",
+      "description": "Online study-with-me community with live rooms and leaderboards.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "Discord"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studyarena",
+      "name": "StudyArena",
+      "url": "https://studyarena.com/",
+      "description": "Multi-model study workspace for comparing AI answers and creating materials from uploaded coursework.",
+      "categories": [
+        "flashcards-spaced-repetition",
+        "ai-tutors-homework-help",
+        "focus-productivity-study-planning",
+        "research-reading-writing",
+        "test-prep",
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": true,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studybits",
+      "name": "StudyBits",
+      "url": "https://studybits.app/",
+      "description": "Reinforcement-learning adaptive study platform that kills decision fatigue.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studyclix",
+      "name": "Studyclix",
+      "url": "https://www.studyclix.ie/",
+      "description": "An Irish Leaving Cert / Junior Cert platform; past papers by topic.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studyplus",
+      "name": "Studyplus",
+      "url": "https://www.studyplus.jp/",
+      "description": "Study tracking and social accountability for learners in Japan.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "studysapuri",
+      "name": "Studysapuri",
+      "url": "https://studysapuri.jp/",
+      "description": "Subscription video lessons and exam preparation for Japanese students.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "japan"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "summerin",
+      "name": "SummerIn",
+      "url": "https://summerin.app/",
+      "description": "Campus community platform for connecting students with local peers and mentors.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web",
+        "App"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "superprof",
+      "name": "Superprof",
+      "url": "https://www.superprof.com/",
+      "description": "Marketplace for live tutoring across academic, language, and practical subjects.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "symbolab",
+      "name": "Symbolab",
+      "url": "https://www.symbolab.com/",
+      "description": "Step-by-step solver for algebra through calculus with detailed explanations.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "tassomai",
+      "name": "Tassomai",
+      "url": "https://www.tassomai.com/",
+      "description": "Adaptive daily revision for UK secondary-school science subjects.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "teachtap",
+      "name": "TeachTap",
+      "url": "https://teachtap.learnwith.ai/",
+      "description": "AP prep taught by AI-voiced historical figures in a social-feed format.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "testbook",
+      "name": "Testbook",
+      "url": "https://testbook.com/",
+      "description": "Practice, mock tests, and courses for Indian government and entrance examinations.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "url": "https://www.todoist.com/",
+      "description": "Clean, powerful task manager with natural-language input.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Multiple platforms"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "top-hat",
+      "name": "Top Hat",
+      "url": "https://tophat.com/",
+      "description": "Higher-ed classroom engagement and interactive textbooks (Toronto).",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [
+        "united-states-canada"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "institutional",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "turbo-ai",
+      "name": "Turbo AI",
+      "url": "https://www.turbo.ai/",
+      "description": "Turns lectures, documents, and videos into notes, flashcards, quizzes, and audio summaries.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "url": "https://www.udemy.com/",
+      "description": "Large instructor-created course marketplace, often deeply discounted.",
+      "categories": [
+        "course-platforms-video-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "ulesson",
+      "name": "uLesson",
+      "url": "https://ulesson.com/",
+      "description": "Mobile-first K–12 lessons and exam preparation for African learners.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "sub-saharan-africa"
+      ],
+      "countries": [
+        "Nigeria"
+      ],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "unacademy",
+      "name": "Unacademy",
+      "url": "https://unacademy.com/",
+      "description": "Live and recorded preparation for Indian entrance and government examinations.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "unpaywall",
+      "name": "Unpaywall",
+      "url": "https://unpaywall.org/",
+      "description": "Browser extension and index for finding legal open-access copies of research papers.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Browser extension",
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "up-learn",
+      "name": "Up Learn",
+      "url": "https://uplearn.co.uk/",
+      "description": "Adaptive GCSE and A-Level courses with guided practice and progress tracking.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [
+        "united-kingdom-ireland"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "uworld",
+      "name": "UWorld",
+      "url": "https://www.uworld.com/",
+      "description": "Explanation-driven question banks for USMLE, NCLEX, bar, SAT, ACT, AP.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "vaia",
+      "name": "Vaia / StudySmarter",
+      "url": "https://vaia.com/",
+      "description": "Turns uploaded study materials into notes, flashcards, summaries, and quizzes.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Germany"
+      ],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "vedantu",
+      "name": "Vedantu",
+      "url": "https://www.vedantu.com/",
+      "description": "Live online tutoring for Classes 6–12 with its WAVE interactive class engine.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [
+        "india"
+      ],
+      "countries": [],
+      "ai_role": "features",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram Alpha",
+      "url": "https://www.wolframalpha.com/",
+      "description": "Computational knowledge engine with step-by-step math/science solutions.",
+      "categories": [
+        "ai-tutors-homework-help",
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "wuolah",
+      "name": "Wuolah",
+      "url": "https://wuolah.com/",
+      "description": "Spanish university notes sharing where students monetize their materials; expanding to LatAm.",
+      "categories": [
+        "lecture-document-ai"
+      ],
+      "regions": [
+        "continental-europe"
+      ],
+      "countries": [
+        "Spain"
+      ],
+      "ai_role": "features",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "wyzant",
+      "name": "Wyzant",
+      "url": "https://www.wyzant.com/",
+      "description": "US-focused tutor marketplace for all academic subjects.",
+      "categories": [
+        "collaboration-tutoring"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "pay-as-you-go",
+      "platforms": [
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "xueersi-tal",
+      "name": "Xueersi",
+      "url": "https://www.xueersi.com/",
+      "description": "Adaptive learning devices, digital practice, and enrichment classes for learners in China.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "paid",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "youdao-dictionary",
+      "name": "Youdao Dictionary",
+      "url": "https://www.youdao.com/",
+      "description": "Chinese dictionary, translation, language practice, and AI-assisted study tools.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "ypt",
+      "name": "YPT (Yeolpumta)",
+      "url": "https://www.yeolpumta.com/en/",
+      "description": "Study timer, app blocking, group challenges, and accountability leaderboards.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [
+        "south-korea"
+      ],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "yuanfudao-xiaohou-ai",
+      "name": "Yuanfudao / Xiaohou AI",
+      "url": "https://www.yuanfudao.com/",
+      "description": "Photo-based problem explanations and AI-assisted learning for students in China.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "url": "https://www.zotero.org/",
+      "description": "Free open-source reference manager with browser integration.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Desktop",
+        "Web",
+        "iOS"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "zoterobib",
+      "name": "ZoteroBib",
+      "url": "https://zbib.org/",
+      "description": "Free browser-based bibliography generator from the Zotero team.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    },
+    {
+      "id": "zuoyebang",
+      "name": "Zuoyebang",
+      "url": "https://www.zuoyebang.com/",
+      "description": "Photo homework help at large scale, now an AI-explanation and enrichment platform.",
+      "categories": [
+        "ai-tutors-homework-help"
+      ],
+      "regions": [
+        "china"
+      ],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-18"
+    }
+  ]
+}

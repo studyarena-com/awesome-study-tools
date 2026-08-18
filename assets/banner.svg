@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">Awesome Study Tools</title>
+  <desc id="description">A global, community-curated directory for better learning.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f5ec"/>
+      <stop offset="1" stop-color="#e7eee8"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#477564"/>
+      <stop offset="1" stop-color="#284f43"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#18382f" flood-opacity="0.16"/>
+    </filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#315c4c" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="640" rx="32" fill="url(#background)"/>
+  <rect width="1280" height="640" rx="32" fill="url(#dots)"/>
+  <circle cx="1110" cy="92" r="184" fill="#d6b86e" opacity="0.24"/>
+  <circle cx="1190" cy="560" r="250" fill="#83a897" opacity="0.19"/>
+  <path d="M0 520 C210 448 348 562 565 505 C768 451 906 505 1280 400 L1280 640 L0 640Z" fill="#315c4c" opacity="0.055"/>
+
+  <g transform="translate(856 128)" filter="url(#shadow)">
+    <circle cx="164" cy="164" r="154" fill="#fffdf7" stroke="#315c4c" stroke-width="3"/>
+    <ellipse cx="164" cy="164" rx="136" ry="54" fill="none" stroke="#8aab9d" stroke-width="3" opacity="0.75"/>
+    <ellipse cx="164" cy="164" rx="58" ry="136" fill="none" stroke="#8aab9d" stroke-width="3" opacity="0.75"/>
+    <path d="M28 164h272M53 88h222M53 240h222" stroke="#8aab9d" stroke-width="3" opacity="0.75"/>
+    <g transform="translate(78 98)">
+      <path d="M86 28C55 8 25 10 4 23v126c24-14 53-12 82 7V28Z" fill="url(#book)"/>
+      <path d="M86 28c31-20 61-18 82-5v126c-24-14-53-12-82 7V28Z" fill="#3f6d5d"/>
+      <path d="M86 28v128" stroke="#f3e7c4" stroke-width="5"/>
+      <path d="M24 54c17-7 31-5 46 2M24 78c17-7 31-5 46 2M24 102c17-7 31-5 46 2M102 56c17-7 31-5 46 2M102 80c17-7 31-5 46 2M102 104c17-7 31-5 46 2" fill="none" stroke="#f8f5ec" stroke-linecap="round" stroke-width="5" opacity="0.9"/>
+    </g>
+    <circle cx="42" cy="56" r="13" fill="#d6b86e"/>
+    <circle cx="286" cy="238" r="10" fill="#cf7f63"/>
+    <circle cx="288" cy="86" r="7" fill="#315c4c"/>
+  </g>
+
+  <g fill="#24483d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="92" y="130" font-size="22" font-weight="700" letter-spacing="4">LEARN BETTER · ANYWHERE</text>
+    <text x="88" y="238" font-size="72" font-weight="780" letter-spacing="-2">Awesome</text>
+    <text x="88" y="320" font-size="72" font-weight="780" letter-spacing="-2">Study Tools</text>
+    <text x="92" y="378" font-size="26" font-weight="450" fill="#4b655c">A global, community-curated directory</text>
+    <text x="92" y="414" font-size="26" font-weight="450" fill="#4b655c">for remembering, understanding, and creating.</text>
+  </g>
+
+  <g transform="translate(92 478)" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="650" text-anchor="middle">
+    <g><rect width="126" height="48" rx="24" fill="#fffdf7" stroke="#a8bdb3"/><text x="63" y="31" fill="#315c4c">Remember</text></g>
+    <g transform="translate(140)"><rect width="142" height="48" rx="24" fill="#fffdf7" stroke="#a8bdb3"/><text x="71" y="31" fill="#315c4c">Understand</text></g>
+    <g transform="translate(296)"><rect width="116" height="48" rx="24" fill="#fffdf7" stroke="#a8bdb3"/><text x="58" y="31" fill="#315c4c">Practise</text></g>
+    <g transform="translate(426)"><rect width="116" height="48" rx="24" fill="#fffdf7" stroke="#a8bdb3"/><text x="58" y="31" fill="#315c4c">Research</text></g>
+    <g transform="translate(556)"><rect width="92" height="48" rx="24" fill="#fffdf7" stroke="#a8bdb3"/><text x="46" y="31" fill="#315c4c">Focus</text></g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+link-report.*
+
+# Local-only generated social preview exports.
+assets/social-preview.png
+docs/social-preview.png
