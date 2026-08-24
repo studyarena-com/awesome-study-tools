@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -109,6 +109,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [MyMaths](https://www.mymaths.co.uk/) - Oxford University Press maths homework platform, KS2–A-Level. _Institutional · No AI · Web_
 - [PhET Interactive Simulations](https://phet.colorado.edu/) - Free interactive simulations for physics, chemistry, mathematics, and earth science. _Free · No AI · Web · iOS · Android_
 - [Qubena](https://qubena.com/) - COMPASS's AI-adaptive tablet math/Japanese for elementary and junior high schools. _Institutional · AI-native · Web_
+- [Random Animal Picker](https://randomanimalpicker.com/) - Free web app for exploring real animal species with photographs, concise facts, source links, and related species. _Free · No AI · Web_
 - [Siyavula](https://www.siyavula.com/) - Open textbooks and adaptive mathematics and science practice. _Institutional · AI-native · Web_
 - [Symbolab](https://www.symbolab.com/) - Step-by-step solver for algebra through calculus with detailed explanations. _Freemium · AI features · Web · iOS · Android_
 - [Wolfram Alpha](https://www.wolframalpha.com/) - Computational knowledge engine with step-by-step math/science solutions. _Freemium · AI-native · Web · iOS · Android_

@@ -2696,6 +2696,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "random-animal-picker",
+      "name": "Random Animal Picker",
+      "url": "https://randomanimalpicker.com/",
+      "description": "Free web app for exploring real animal species with photographs, concise facts, source links, and related species.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-24"
+    },
+    {
       "id": "reclaim-ai",
       "name": "Reclaim.ai",
       "url": "https://reclaim.ai/",
