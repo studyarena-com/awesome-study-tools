@@ -1729,6 +1729,26 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "latch",
+      "name": "Latch",
+      "url": "https://github.com/saksham10arora-dotcom/latch",
+      "description": "Browser extension that holds a YouTube lecture in full screen, so leaving mid-lecture takes a deliberate hold rather than a keypress.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Browser extension",
+        "Chrome"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-08-30"
+    },
+    {
       "id": "learncoach",
       "name": "LearnCoach",
       "url": "https://learncoach.com/",

@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -136,6 +136,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Focusmate](https://www.focusmate.com/) - Virtual co-working: get paired with an accountability partner for timed sessions. _Freemium · No AI · Web_
 - [Forest](https://www.forestapp.cc/) - Gamified Pomodoro; grow a virtual tree while you focus (funds real trees). _Freemium · No AI · iOS · Android · Browser extension_
 - [Freedom](https://freedom.to/) - Cross-device website and app blocker with scheduled sessions. _Paid · No AI · Multiple platforms_
+- [Latch](https://github.com/saksham10arora-dotcom/latch) - Browser extension that holds a YouTube lecture in full screen, so leaving mid-lecture takes a deliberate hold rather than a keypress. _Free · No AI · Browser extension · Chrome_
 - [MyStudyLife](https://mystudylife.com/) - Student planner for classes, assignments, exams, and timetables. _Free · No AI · Web · iOS · Android_
 - [Reclaim.ai](https://reclaim.ai/) - AI scheduling that auto-blocks focus/study time around your calendar. _Freemium · AI-native · Web_
 - [StudyArena](https://studyarena.com/) 🏠 - Multi-model study workspace for comparing AI answers and creating materials from uploaded coursework. _Free · AI-native · Web_
