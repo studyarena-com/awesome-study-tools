@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -63,6 +63,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Quizlet](https://quizlet.com/) - Widely used flashcard platform with Learn/Match/Test modes and Q-Chat AI tutor. _Freemium · AI features · Web · iOS · Android_
 - [RemNote](https://www.remnote.com/) - Note-taking + flashcards in one, with built-in spaced repetition and AI card generation. _Freemium · AI features · Web · iOS · Android · Desktop_
 - [StudyArena](https://studyarena.com/) 🏠 - Multi-model study workspace for comparing AI answers and creating materials from uploaded coursework. _Free · AI-native · Web_
+- [SummarizAI](https://summarizai.ink) - Chrome extension that adds AI summaries, chapters, chat, and Study flashcards on the YouTube watch page. _Freemium · AI-native · Chrome_
 
 ### Note-Taking & Knowledge Management
 
@@ -270,6 +271,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Quizlet](https://quizlet.com/) - Widely used flashcard platform with Learn/Match/Test modes and Q-Chat AI tutor. _Freemium · AI features · Web · iOS · Android_
 - [Studocu](https://www.studocu.com/) - Peer-shared study documents with course-specific search and AI-assisted features. _Freemium · AI features · Web · iOS · Android_
 - [StudyArena](https://studyarena.com/) 🏠 - Multi-model study workspace for comparing AI answers and creating materials from uploaded coursework. _Free · AI-native · Web_
+- [SummarizAI](https://summarizai.ink) - Chrome extension that adds AI summaries, chapters, chat, and Study flashcards on the YouTube watch page. _Freemium · AI-native · Chrome_
 - [Turbo AI](https://www.turbo.ai/) - Turns lectures, documents, and videos into notes, flashcards, quizzes, and audio summaries. _Freemium · AI-native · Web · iOS · Android_
 - [Vaia / StudySmarter](https://vaia.com/) - Turns uploaded study materials into notes, flashcards, summaries, and quizzes. _Freemium · AI-native · Web_
 - [Wuolah](https://wuolah.com/) - Spanish university notes sharing where students monetize their materials; expanding to LatAm. _Freemium · AI features · Web_

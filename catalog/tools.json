@@ -3301,6 +3301,26 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "summarizai",
+      "name": "SummarizAI",
+      "url": "https://summarizai.ink",
+      "description": "Chrome extension that adds AI summaries, chapters, chat, and Study flashcards on the YouTube watch page.",
+      "categories": [
+        "flashcards-spaced-repetition",
+        "lecture-document-ai"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Chrome"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-09-14"
+    },
+    {
       "id": "summerin",
       "name": "SummerIn",
       "url": "https://summerin.app/",
