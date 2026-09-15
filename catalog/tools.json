@@ -1469,6 +1469,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "grade-calculators",
+      "name": "Grade Calculators",
+      "url": "https://gradecalculators.io/",
+      "description": "Weighted class-grade calculator that shows current letter grade and the final-exam score needed.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-09-15"
+    },
+    {
       "id": "grammarly",
       "name": "Grammarly",
       "url": "https://www.grammarly.com/",
