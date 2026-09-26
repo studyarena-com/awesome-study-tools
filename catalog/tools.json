@@ -1528,6 +1528,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "ibacalao",
+      "name": "iBacalao",
+      "url": "https://www.ibacalao.com/",
+      "description": "Criterion-by-criterion feedback on Diploma Programme IA, EE, and TOK drafts.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "native",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-09-25"
+    },
+    {
       "id": "italki",
       "name": "italki",
       "url": "https://www.italki.com/",

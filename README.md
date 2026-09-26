@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -152,6 +152,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Gemini Notebook](https://notebook.google.com/) - Source-grounded notes, summaries, questions, and audio over uploaded learning materials. _Free · AI-native · Web_
 - [Google Scholar](https://scholar.google.com/) - Search engine for scholarly literature, citations, and author profiles. _Free · No AI · Web_
 - [Grammarly](https://www.grammarly.com/) - AI writing assistant for grammar, style, tone, and clarity. _Freemium · AI-native · Multiple platforms_
+- [iBacalao](https://www.ibacalao.com/) - Criterion-by-criterion feedback on Diploma Programme IA, EE, and TOK drafts. _Freemium · AI-native · Web_
 - [Mendeley](https://www.mendeley.com/) - Elsevier's reference manager (use Reference Manager, not the legacy Desktop). _Free · AI features · Web · Desktop · Mobile_
 - [Overleaf](https://www.overleaf.com/) - Collaborative browser-based LaTeX editor for academic and technical writing. _Freemium · AI features · Web_
 - [Perplexity](https://www.perplexity.ai/) - AI answer engine with cited sources and Deep Research mode. _Freemium · AI-native · Web · iOS · Android · macOS_
