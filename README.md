@@ -217,6 +217,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Edrolo](https://edrolo.com.au/) - Curriculum-aligned video lessons and practice for Australian secondary students. _Institutional · AI features · Web_
 - [Fiveable](https://fiveable.me/) - Study guides, practice questions, and community support for AP courses. _Freemium · AI features · Web_
 - [GregMat](https://www.gregmat.com/) - Low-cost preparation for exams including the GRE and GMAT. _Paid · No AI · Web · YouTube_
+- [InfinityMock](https://infinitymock.com) - AI-generated mock tests for 275+ competitive exams and board classes across 50+ countries. _Freemium · AI-native · Web_
 - [Kaplan](https://www.kaptest.com/) - Established prep for MCAT, bar, GRE, GMAT, SAT, ACT. _Paid · AI features · Web · iOS · Android_
 - [Kartable](https://www.kartable.fr/) - French curriculum revision for collège and lycée, Bac prep. _Freemium · AI features · Web_
 - [LearnCoach](https://learncoach.com/) - NCEA/VCE/HSC senior science exam prep with AI-driven feedback. _Institutional · AI-native · Web_
