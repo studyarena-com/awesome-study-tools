@@ -245,6 +245,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [UWorld](https://www.uworld.com/) - Explanation-driven question banks for USMLE, NCLEX, bar, SAT, ACT, AP. _Paid · AI features · Web · iOS · Android_
 
 ### Collaboration & Tutoring Marketplaces
+- [AI Group Call](https://aigroupcall.app) - An AI council you can talk to: a group voice call where agents riff with each other, answer when named, and yield when you speak.
 
 - [Cluey Learning](https://clueylearning.com.au/) - Live online tutoring for Australian primary and secondary students. _Pay as you go · No AI · Web_
 - [Focusmate](https://www.focusmate.com/) - Virtual co-working: get paired with an accountability partner for timed sessions. _Freemium · No AI · Web_
