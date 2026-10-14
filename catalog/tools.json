@@ -515,6 +515,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "bjjgraph",
+      "name": "BJJGraph",
+      "url": "https://bjjgraph.org/",
+      "description": "Navigable graph of Brazilian jiu-jitsu positions and techniques, with spaced-repetition flashcards for every node.",
+      "categories": [
+        "flashcards-spaced-repetition"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "features",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-10-14"
+    },
+    {
       "id": "blooket",
       "name": "Blooket",
       "url": "https://www.blooket.com/",

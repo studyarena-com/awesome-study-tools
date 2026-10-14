@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -52,6 +52,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 ### Flashcards & Spaced Repetition
 
 - [Anki](https://apps.ankiweb.net/) - An open-source spaced-repetition system with a large community deck library. _Free · No AI · Windows · macOS · Linux · +3 more_
+- [BJJGraph](https://bjjgraph.org/) - Navigable graph of Brazilian jiu-jitsu positions and techniques, with spaced-repetition flashcards for every node. _Free · AI features · Web_
 - [Blooket](https://www.blooket.com/) - Game-based classroom quizzes with teacher authoring and AI-assisted question generation. _Freemium · AI features · Web_
 - [Brainscape](https://www.brainscape.com/) - Confidence-based repetition with curated expert decks. _Freemium · AI features · Web · iOS · Android_
 - [Cram](https://www.cram.com/) - Large public flashcard library with simple practice modes. _Freemium · No AI · Web · iOS · Android_
