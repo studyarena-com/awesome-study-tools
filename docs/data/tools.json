@@ -1750,6 +1750,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "libre-calculator",
+      "name": "Libre Calculator",
+      "url": "https://librecalculator.com/",
+      "description": "Topic-specific calculators that connect results to input-specific worked steps, diagrams, and explanatory lessons.",
+      "categories": [
+        "math-stem"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-10-15"
+    },
+    {
       "id": "libretexts",
       "name": "LibreTexts",
       "url": "https://libretexts.org/",

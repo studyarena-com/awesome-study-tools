@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -104,6 +104,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [GeoGebra](https://www.geogebra.org/) - Dynamic math software for geometry, algebra, calculus, stats, and 3D. _Free · No AI · Web · Desktop · iOS · Android_
 - [Khan Academy](https://www.khanacademy.org/) - Free comprehensive math and science lessons K–12 through college. _Free · AI features · Web · iOS · Android_
 - [KooBits](https://www.koobits.com/) - Adaptive primary-school mathematics practice aligned with Singapore curricula. _Paid · AI-native · Web_
+- [Libre Calculator](https://librecalculator.com/) - Topic-specific calculators that connect results to input-specific worked steps, diagrams, and explanatory lessons. _Free · No AI · Web_
 - [Mathspace](https://mathspace.co/au) - Adaptive maths with the MiloAI tutor that gives hints, not answers. _Institutional · AI-native · Web_
 - [Mathway](https://www.mathway.com/) - Instant solver for math problems at all levels. _Freemium · AI features · Web · iOS · Android_
 - [MyMaths](https://www.mymaths.co.uk/) - Oxford University Press maths homework platform, KS2–A-Level. _Institutional · No AI · Web_
