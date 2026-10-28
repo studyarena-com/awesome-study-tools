@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -138,6 +138,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Freedom](https://freedom.to/) - Cross-device website and app blocker with scheduled sessions. _Paid · No AI · Multiple platforms_
 - [MyStudyLife](https://mystudylife.com/) - Student planner for classes, assignments, exams, and timetables. _Free · No AI · Web · iOS · Android_
 - [Reclaim.ai](https://reclaim.ai/) - AI scheduling that auto-blocks focus/study time around your calendar. _Freemium · AI-native · Web_
+- [Ripple](https://ripplefocus.github.io/en/) - Locks distracting apps during study hours, adds a 15-minute cooldown before a block can be lifted, and can block only short-video feeds like YouTube Shorts. _Free · No AI · iOS · Android_
 - [StudyArena](https://studyarena.com/) 🏠 - Multi-model study workspace for comparing AI answers and creating materials from uploaded coursework. _Free · AI-native · Web_
 - [StudyBits](https://studybits.app/) - Reinforcement-learning adaptive study platform that kills decision fatigue. _Freemium · AI-native · Web_
 - [Studyplus](https://www.studyplus.jp/) - Study tracking and social accountability for learners in Japan. _Free · No AI · Web_

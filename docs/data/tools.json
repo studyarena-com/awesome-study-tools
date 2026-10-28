@@ -2756,6 +2756,26 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "ripple-focus",
+      "name": "Ripple",
+      "url": "https://ripplefocus.github.io/en/",
+      "description": "Locks distracting apps during study hours, adds a 15-minute cooldown before a block can be lifted, and can block only short-video feeds like YouTube Shorts.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-10-29"
+    },
+    {
       "id": "roam-research",
       "name": "Roam Research",
       "url": "https://roamresearch.com/",
