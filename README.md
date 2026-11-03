@@ -273,6 +273,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Turbo AI](https://www.turbo.ai/) - Turns lectures, documents, and videos into notes, flashcards, quizzes, and audio summaries. _Freemium · AI-native · Web · iOS · Android_
 - [Vaia / StudySmarter](https://vaia.com/) - Turns uploaded study materials into notes, flashcards, summaries, and quizzes. _Freemium · AI-native · Web_
 - [Wuolah](https://wuolah.com/) - Spanish university notes sharing where students monetize their materials; expanding to LatAm. _Freemium · AI features · Web_
+- [QuizQuip](https://quizquip.com/) - Free syllabus-aligned science revision for Singapore lower-secondary students: chapter notes, quizzes, topical questions and downloadable practice papers, grouped by exam stage (WA1/WA2/EOY). _Free · AI features · Web_
 
 ## Browse by region
 
