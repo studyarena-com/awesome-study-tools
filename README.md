@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -123,6 +123,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [ELSA Speak](https://elsaspeak.com/en) - AI-supported English pronunciation practice using speech recognition. _Freemium · AI-native · iOS · Android_
 - [HelloTalk](https://www.hellotalk.com/) - Language exchange with native speakers, with AI grammar correction. _Freemium · AI features · iOS · Android_
 - [italki](https://www.italki.com/) - 1-on-1 lessons with professional teachers and community tutors in any language. _Pay as you go · AI features · Web · iOS · Android_
+- [Learnpeat](https://learnpeat.com/) - Short lessons and daily practice for Japanese, Korean and English, including hiragana, katakana and Hangul, usable without an account. _Free · No AI · Web_
 - [LingQ](https://www.lingq.com/en/) - Language practice through reading and listening to authentic content. _Freemium · AI features · Web · iOS · Android_
 - [mikan](https://mikan.link/) - English vocabulary practice for Japanese learners preparing for school and proficiency exams. _Freemium · AI features · Web_
 - [Pimsleur](https://www.pimsleur.com/) - Audio-first spaced-repetition method, great for commutes. _Paid · No AI · Web · iOS · Android_
