@@ -1750,6 +1750,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "learnpeat",
+      "name": "Learnpeat",
+      "url": "https://learnpeat.com/",
+      "description": "Short lessons and daily practice for Japanese, Korean and English, including hiragana, katakana and Hangul, usable without an account.",
+      "categories": [
+        "language-learning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-11-05"
+    },
+    {
       "id": "libretexts",
       "name": "LibreTexts",
       "url": "https://libretexts.org/",
