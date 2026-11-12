@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -155,6 +155,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Mendeley](https://www.mendeley.com/) - Elsevier's reference manager (use Reference Manager, not the legacy Desktop). _Free · AI features · Web · Desktop · Mobile_
 - [Overleaf](https://www.overleaf.com/) - Collaborative browser-based LaTeX editor for academic and technical writing. _Freemium · AI features · Web_
 - [Perplexity](https://www.perplexity.ai/) - AI answer engine with cited sources and Deep Research mode. _Freemium · AI-native · Web · iOS · Android · macOS_
+- [ProfScout](https://profscout.com/) - Find professors to contact for research positions, with verified email addresses. _Freemium · No AI · Web_
 - [Purdue OWL](https://owl.purdue.edu/) - Free writing, citation, grammar, and research guidance from Purdue University. _Free · No AI · Web_
 - [ResearchRabbit](https://www.researchrabbit.ai/) - Visual literature discovery through paper, author, and citation networks. _Free · AI features · Web_
 - [SciSpace](https://scispace.com/) - AI for reading, explaining, and summarizing research papers. _Freemium · AI-native · Web_

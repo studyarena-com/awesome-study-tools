@@ -2591,6 +2591,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "profscout",
+      "name": "ProfScout",
+      "url": "https://profscout.com/",
+      "description": "Find professors to contact for research positions, with verified email addresses.",
+      "categories": [
+        "research-reading-writing"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-11-12"
+    },
+    {
       "id": "purdue-owl",
       "name": "Purdue OWL",
       "url": "https://owl.purdue.edu/",
