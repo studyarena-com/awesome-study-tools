@@ -2381,6 +2381,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "passprofessor",
+      "name": "PassProfessor",
+      "url": "https://passprofessor.com/free-samples/",
+      "description": "Practice questions for licensing, certification, and admissions exams, with free sample questions for every program.",
+      "categories": [
+        "test-prep"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "freemium",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-11-24"
+    },
+    {
       "id": "perplexity",
       "name": "Perplexity",
       "url": "https://www.perplexity.ai/",

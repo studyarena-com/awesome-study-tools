@@ -8,7 +8,7 @@
 [![Catalog validation](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/validate.yml)
 [![Link check](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml/badge.svg)](https://github.com/studyarena-com/awesome-study-tools/actions/workflows/links.yml)
 [![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-4a5568.svg)](LICENSE)
-![176 tools](https://img.shields.io/badge/tools-176-315c4c.svg)
+![177 tools](https://img.shields.io/badge/tools-177-315c4c.svg)
 
 A global, community-curated directory of study and learning tools. **The complete resource is the clickable Markdown list on this repository page**—no app or separate site required. Browse by category or region below, or use <kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> to find a tool.
 
@@ -225,6 +225,7 @@ Every tool name below is a direct link. Entries are alphabetical within each sec
 - [Megastudy](https://www.megastudy.net/) - Online lectures and preparation for South Korea's CSAT examination. _Paid · No AI · Web_
 - [Nomad Education](https://www.nomadeducation.fr/) - Mobile-first, offline-capable prep from collège through grandes écoles entrance exams. _Freemium · No AI · Web_
 - [Noon Academy](https://www.noonacademy.com/) - Social learning, live classes, and exam preparation for Arabic-speaking learners. _Freemium · AI-native · Web_
+- [PassProfessor](https://passprofessor.com/free-samples/) - Practice questions for licensing, certification, and admissions exams, with free sample questions for every program. _Freemium · No AI · Web_
 - [Physics & Maths Tutor](https://www.physicsandmathstutor.com/) - Enormous free repository of past papers, notes, and worked solutions; no account needed. _Free · No AI · Web_
 - [Physics Wallah](https://www.pw.live/) - Online and classroom preparation for Indian entrance and government examinations. _Freemium · AI features · Web_
 - [PrepScholar](https://www.prepscholar.com/) - Adaptive SAT/ACT program targeting your weak areas. _Paid · AI features · Web_
