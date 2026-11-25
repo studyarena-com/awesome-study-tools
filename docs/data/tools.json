@@ -3104,6 +3104,25 @@
       "last_reviewed": "2026-08-18"
     },
     {
+      "id": "spinwheelnames",
+      "name": "SpinWheelNames",
+      "url": "https://spinwheelnames.com/",
+      "description": "Free spin wheel and random name picker for classrooms and study groups, with weighted entries and elimination mode.",
+      "categories": [
+        "focus-productivity-study-planning"
+      ],
+      "regions": [],
+      "countries": [],
+      "ai_role": "none",
+      "access": "free",
+      "platforms": [
+        "Web"
+      ],
+      "status": "active",
+      "maintainer_affiliated": false,
+      "last_reviewed": "2026-11-25"
+    },
+    {
       "id": "squirrel-ai",
       "name": "Squirrel AI",
       "url": "https://squirrelai.com/",
